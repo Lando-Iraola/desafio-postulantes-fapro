@@ -15,4 +15,6 @@ node scrapper.js
 # Reasoning
 I had once already used Puppeteer to write a web scrapper.
 In this case it came in handy to just write a script that would extract the data from the table as it exists within the web browser.
-This way I avoided having to handle things as text by just iterating over the DOM's objects
+This way I avoided having to handle things as text by just iterating over the DOM's objects.
+
+Also in this particular case, the web page is not static so the table had to be rendered first, Puppeteer achieves this by simply creating a web browser instance and loading the page as a user would.
