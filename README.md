@@ -7,6 +7,10 @@ This is a web scrapper that gets HTML from Chile's tax services and transforms s
 # How to run
 This is a Node.js project. so Node.js is required.
 It's also neccesary to install this project's dependencies with NPM i
+The entry point is scrapper.js, so please:
+```
+run node scrapper.js
+```
 
 # Reasoning
 I had once already used Puppeteer to write a web scrapper.
