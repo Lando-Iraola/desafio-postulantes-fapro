@@ -9,7 +9,7 @@ This is a Node.js project. so Node.js is required.
 It's also neccesary to install this project's dependencies with NPM i
 The entry point is scrapper.js, so please:
 ```
-run node scrapper.js
+node scrapper.js
 ```
 
 # Reasoning
