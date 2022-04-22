@@ -2,7 +2,8 @@
 This is my submitted answer to [Fapro](https://fapro.app/ "Fapro's homepage")'s job challenge
 
 # About
-This is a web scrapper that gets HTML from Chile's tax services and transforms some of its data to JSON  using Google's puppeteer
+This is a web scrapper that gets data from Chile's tax services using Google's puppeteer.
+It does this by inserting custom javascript that can be found on extract-data.js into the browser and then saves it on the app working directory.
 
 # How to run
 This is a Node.js project. so Node.js is required.
